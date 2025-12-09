@@ -7,11 +7,11 @@ print("เลือกวิธีการเรียงลำดับ\n1. Qu
 choice = input("ป้อนตัวเลือก: ")
 if choice == "1":
     result = BubbleSort.bubble_sort(array)
-    print("Bubble Sort Result : " + result)
+    print("Bubble Sort Result : " + str(result))
 
 elif choice == "2":
     result = QuickSort.quick_sort(array)
-    print("Quick Sort Result : " + result)
+    print("Quick Sort Result : " + str(result))
 
 else:
     print("ตัวเลือกไม่ถูกต้อง")
