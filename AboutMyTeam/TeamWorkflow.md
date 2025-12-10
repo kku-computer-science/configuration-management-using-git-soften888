@@ -118,5 +118,4 @@ configuration-management-using-git-soften888/
    จาก <branch-name> → main หรือ staging (ตามที่กำหนด)
 
 7. Reviewer ตรวจสอบและ merge
-
 ```

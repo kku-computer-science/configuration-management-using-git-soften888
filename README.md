@@ -1,3 +1,5 @@
+> ** AI Declaration: This document was formatted and organized using AI assistance(ChatGPT) to enhance readability, structure, and visual presentation.
+
 # โปรเจกต์นี้เป็นส่วนหนึ่งของวิชา CP353004 Software Engineering  
 กิจกรรม Lab 3.3: Configuration Management using Git  
 ภาคการศึกษา 2/2568
@@ -16,8 +18,7 @@
 configuration-management-using-git-soften888/
 │── Project/
 │   │── BubbleSort.py      \# ฟังก์ชันการทำงานของ Bubble Sort Algorithm
-│   │── quicksort.py       \# ฟังก์ชันการทำงานของ Quick Sort Algorithm
-│   └── test\_quicksort.py  \# Unit Test สำหรับทดสอบ Quick Sort
+│   └── quicksort.py       \# ฟังก์ชันการทำงานของ Quick Sort Algorithm
 │── AboutMyTeam/           \# ข้อมูลรายละเอียดของสมาชิกในทีม
 │── main.py                \# โปรแกรมหลัก สำหรับรับค่า input และแสดงผลลัพธ์
 └── README.md              \# คำอธิบายโปรเจกต์
@@ -63,10 +64,3 @@ python main.py
 *เมื่อเลือกเสร็จสิ้น โปรแกรมจะแสดงผลลัพธ์ของอาเรย์ที่เรียงลำดับเรียบร้อยแล้ว*
 
 -----
-
-**5. การรัน Unit Test (Optional)**
-หากต้องการทดสอบการทำงานของ Quick Sort สามารถรันไฟล์ทดสอบได้โดยใช้คำสั่ง:
-
-```
-python Project/test_quicksort.py
-```

@@ -10,11 +10,5 @@ def quick_sort(arr):
     left = [x for x in arr if x < pivot]
     mid = [x for x in arr if x == pivot]
     right = [x for x in arr if x > pivot]
-#เรียกquicksort + เอาผลลัพธ์มาต่อกัน
+#เรียก quicksort และเรียง
     return quick_sort(left) + mid + quick_sort(right)
-#รันtest แบบไม่ผ่าน main ถ้า ไม่conflict แล้วลบข้างล่างทิ้งได้เลย
-if __name__ == "__main__":
-    data = [42, 71, 84, 91, 11, 5]
-    print("Original:", data)
-    print("Sorted:", quick_sort(data))
-#Unit Test ผ่าน ทั้ง 6ตัว น่าจะไม่มีปัญหา(ตอนนี้)
